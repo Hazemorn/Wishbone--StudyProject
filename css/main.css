@@ -195,7 +195,9 @@ header nav ul li {
 }
 
 .reeding_house {
-    height: 600px; /*will change */
+    /* height: 600px; will change */
+    padding-top: 266px;
+    padding-bottom: 266px;
     background-image: url(/img/reeding_bckgrnd.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -287,7 +289,8 @@ header nav ul li {
 }
 
 .the_marbler_staircase {
-    height: 600px;
+    padding-top: 266px;
+    padding-bottom: 266px;
     background-image: url(/img/marble_stair_bckgrnd.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -300,8 +303,9 @@ header nav ul li {
 }
 
 .marbler_stairc--info {
-    max-width: 280px;
-    padding-right: 40px;
+    padding-right: 80px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .marbler_stairc--info h1 {
@@ -316,4 +320,155 @@ header nav ul li {
 .marbler_stairc--info p {
     color:rgba(100, 92, 85, 1);
     line-height: 24px;   
+}
+
+.prior_clients {
+    background-color: rgba(64, 62, 59, 1);
+
+   
+}
+
+.clients--info {
+    padding-top: 110px;
+    padding-bottom: 110px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clients--text {
+    max-width: 460px;
+}
+
+.clients--text h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: rgba(236, 231, 228, 1);
+}
+
+.clients--text h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom: 15px;
+}
+
+.clients--text p {
+    font-size: 15px;
+    line-height: 24px;
+    color:rgba(236, 231, 228, 1);
+
+}
+
+.clients--logo {
+    display: flex;
+    flex-direction: column;
+    gap: 60px; 
+}
+
+
+.the_swirling_staicase {
+    padding-top: 266px;
+    padding-bottom: 266px;
+    background-image: url('/img/swirling_stair_bckgrnd.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.swirling_stairc--info {
+    padding-left: 80px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.swirling_stairc--info h1 {
+    color: rgba(64, 62, 59, 1);
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.swirling_stairc--info p {
+    color: rgba(100, 92, 85, 1);
+    line-height: 24px;
+}
+
+
+.featured_projects {
+    background-color: rgba(247, 247, 247, 1);
+
+    display: flex;
+    justify-content: center;
+}
+
+.project--info {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.project--info h1 {
+    color:rgba(27, 26, 26, 1);
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    margin-bottom: 15px;
+}
+
+.project--info p {
+    color:rgba(100, 92, 85, 1);
+    font-size: 24px;
+    line-height: 30px;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.project-cards {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.center-img {
+    position: relative;
+}
+
+.label-cards {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 39px;
+}
+
+.label-cards h2 {
+    color:rgba(100, 92, 85, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.label-cards p {
+    color:rgba(64, 62, 59, 1);
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.project--info a {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0;
 }
