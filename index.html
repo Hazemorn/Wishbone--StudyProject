@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="container">
+    <header class="header container">
         <span class="logo">Wishbone+Parthers</span>
         <nav>
             <ul>
@@ -19,14 +19,13 @@
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Contact</a></li>
                 <button class="btn_template">Get template</button>
-                <!-- <li class="btn_template"><a href="#">Get template</a></li> -->
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="hero-container">
-            <div class="hero--info">
+        <section class="hero">
+            <div class="hero__info">
                     <h2>Wishbone+Partners</h2>
                     <h1>The home of beautiful architecture.</h1>
                     <p>We are an architecture firm with a focus on beautiful but functional design. At its heart, we believe
@@ -34,13 +33,13 @@
                         more about our previous projects, our process and our team below.</p>
                     <a href="#">Read more</a>
             </div>
-            <img class='forest_n_ceiling_photo' src="./img/hero_bckgrnd.svg" alt="">
+            <img class='hero__image' src="./img/hero_bckgrnd.svg" alt="">
         </section>
 
-        <article class="our_firm">
-            <div class="firm--info">
+        <section class="our_firm">
+            <div class="firm__info">
                 <h1>Our firm</h1>
-                <div class="firm--text">
+                <div class="firm__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
                         tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
                         erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
@@ -65,33 +64,33 @@
                     </div>
                 </div>   
             </div>
-        </article>
+        </section>
 
         <section class="reeding_house">
-            <div class="reeding--info">
+            <div class="reeding__info">
                 <h1>Reeding House</h1>
                 <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
             </div>
         </section>
 
         <section class="our_process">
-            <div class="container-process">
+            <div class="process">
                 <h4>Our process</h4>
                 <h1>How we do what we do.</h1>
-                <div class="info">
-                    <div class="process">
+                <div class="process__info">
+                    <div class="process__item">
                         <img src="./img/process/process_1.svg">
                         <h2>Sketching</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus
                             sapien ac arcu tempor, vitae tempor leo iaculis.</p>
                     </div>
-                    <div class="process">
+                    <div class="process__item">
                         <img src="./img/process/process_2.svg">
                         <h2>Finalizing</h2>
                         <p>Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu
                             tempor, vitae.</p>
                     </div>
-                    <div class="process">
+                    <div class="process__item">
                         <img src="./img/process/process_3.svg">
                         <h2>Building</h2>
                         <p>Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae
@@ -102,30 +101,30 @@
         </section>
 
         <section class="the_marbler_staircase">
-            <div class="marbler_stairc--info">
+            <div class="marbler_stairc__info">
                 <h1>The marble staircase</h1>
                 <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
             </div>
         </section>
 
         <section class="prior_clients">
-            <div class="clients--info">
-                <div class="clients--text">
+            <div class="clients__info">
+                <div class="clients__text">
                     <h3>prior clients</h3>
                     <h1>Happy customers.</h1>
                     <p>Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.
                         Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
                 </div>
-                <div class="clients--logo">
+                <div class="clients__logo">
                     <img src="./img/clients/client_1.svg" alt="Hill&Hayes">
                 </div>
-                <div class="clients--logo">
+                <div class="clients__logo">
                     <img src="./img/clients/client_3.svg" alt="Riksgrasen">
                 </div>
-                <div class="clients--logo">
+                <div class="clients__logo">
                     <img src="./img/clients/client_2.svg" alt="Studio Cai">
                 </div>
-                <div class="clients--logo">
+                <div class="clients__logo">
                     <img src="./img/clients/client_4.svg" alt="ChillIndustries">
                 </div>
             </div>
@@ -133,20 +132,20 @@
         </section>
 
         <section class="the_swirling_staicase">
-            <div class="swirling_stairc--info">
+            <div class="swirling_stairc__info">
                 <h1>The swirling staircase</h1>
                 <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p> 
             </div>
         </section>
 
         <article class="featured_projects">
-            <div class="project--info">
+            <div class="project__info">
                 <h1>Featured projects</h1>
                 <p>Some of the latest and greatest projects from us here at Wishbone+Partners.</p>
-                <div class="project-cards">
+                <div class="project__cards">
                     <img src="./img/projects/project_1.svg" alt="">
-                    <div class="center-img">
-                        <div class="label-cards">
+                    <div class="cente__img">
+                        <div class="label__cards">
                             <h2>New York</h2>
                             <p>Big Road Brewery</p>
                         </div>
@@ -160,8 +159,8 @@
         </article>
 
         <section class="meet_our_team">
-            <div class="team--info">
-                <div class="team--text">
+            <div class="team__info">
+                <div class="team__text">
                     <h1>Meet our team</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis.</p>
                     <a href="#">See team</a>
@@ -169,35 +168,35 @@
             
                 <div class="member">
                     <img src="./img/team/s_collier.svg" alt="Stephen Collier">
-                    <div class="member--name">
+                    <div class="member__name">
                         <p class="name">Stephen Collier</p>
                         <p class="role">Senior Partner</p>
                     </div>
                 </div>
                 <div class="member">
                     <img src="./img/team/n_peters.svg" alt="Nolan Peters">
-                    <div class="member--name">
+                    <div class="member__name">
                         <p class="name">Nolan Peters</p>
                         <p class="role">Associate</p>
                     </div>
                 </div>
                 <div class="member">
                     <img src="./img/team/f_wonder.svg" alt="Ferris Wonder">
-                    <div class="member--name">
+                    <div class="member__name">
                         <p class="name">Ferris Wonder</p>
                         <p class="role">Associate Partner</p>
                     </div>
                 </div>
                 <div class="member">
                     <img src="./img/team/a_stone.svg" alt="Aria Stone">
-                    <div class="member--name">
+                    <div class="member__name">
                         <p class="name">Aria Stone</p>
                         <p class="role">Senior Partner</p>
                     </div>
                 </div>
                 <div class="member">
                     <img src="./img/team/n_ferry.svg" alt="Niko Ferry">
-                    <div class="member--name">
+                    <div class="member__name">
                         <p class="name">Niko Ferry</p>
                         <p class="role">Partner</p>
                     </div>
@@ -206,12 +205,12 @@
         </section>
 
         <section class="get_in_touch">
-            <div class="g_in_t--info">
-                <div class="g_in_t--text">
+            <div class="get_in_touch__info">
+                <div class="get_in_touch__text">
                     <h3>Get in touch</h3>
                     <p>Think we would be a good fit for your next project?</p>
                 </div>
-                <div class="g_in_t--link">
+                <div class="get_in_touch__link">
                     <a href="#">Get in touch</a>
                 </div>
             </div> 
@@ -219,8 +218,8 @@
     </main>
 
     <footer>
-        <div class="footer--info">
-            <div class="footer--text">
+        <div class="footer__info">
+            <div class="footer__text">
                 <span class="logo">wishbons+parther</span>
                 <p>Powered by <a href="#">Webflow</a></p>
                 <p>All rights reserved Wishbone+Partners, Inc.Licensing</p>
