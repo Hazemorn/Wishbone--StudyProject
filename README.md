@@ -1,4 +1,4 @@
-<h1 align='center'> Wishbone <h1>
+<h1 align='center'> Wishbone </h1>
 
 A frontend study project focused on mastering HTML5 and CSS3 layout techniques.
 
