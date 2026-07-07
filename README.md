@@ -1,7 +1,15 @@
-# Wishbone 
+<h1 align='center'> Wishbone <h1>
 
 A frontend study project focused on mastering HTML5 and CSS3 layout techniques.
 
+---
+## Screenshot
+<img width="3360" height="12550" alt="WishboneSite" src="https://github.com/user-attachments/assets/947e1bce-cd4a-48e0-829d-fa5649cd6553" />
+
+
+---
+## GitHub Pages
+https://hazemorn.github.io/Wishbone--StudyProject/
 ---
 
 ## 📝 Description
